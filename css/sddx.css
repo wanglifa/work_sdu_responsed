@@ -1,0 +1,661 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	font-size: 625%;
+}
+body{
+	font-size: 0.14rem;
+	font-family: "Microsoft YaHei",Verdana;
+	line-height: 1.5;
+}
+p{
+	line-height: 1.8;
+}
+/*top_logo start*/
+
+.logo-intro .logo .log-text{
+	border-left: 1px solid #9f1014;
+	margin: 0.28rem 0;
+}
+.logo-intro .logo p{
+	font-size: 0.2rem;
+	color: #9f1014;
+	padding: 0.04rem 0;
+}
+.phone{
+	text-align: right;
+	font-size: 0.22rem;
+	color: #9f1014;
+	padding: 0.44rem 0 0.44rem 0.4rem;
+}
+.phone img,.phone p{
+	display: inline-block;
+	vertical-align: top;
+}
+.phone p{
+	padding-left: 0.1rem;
+}
+
+/*nav pc*/
+nav.pc{
+	background: #ab0710;
+}
+nav.pc ul li.active{
+	background: #de2a34;
+}
+nav.pc ul {
+	display: table;
+	width: 100%;
+	margin-bottom: 0;
+}
+nav.pc ul li{
+	display: table-cell;
+	text-align: center;
+	line-height: 0.5rem;
+}
+nav.pc ul li a{
+	display: block;
+	color: #fff;
+	font-size: 0.18rem;
+}
+nav.pc ul li:hover{
+	background: #de2a34;
+}
+nav.pc ul li:hover a{
+	text-decoration: none;
+}
+.highlight{
+	background: #f58d06;
+}
+.highlight a{
+	font-weight: 600;
+}
+/*mobile nav*/
+.mobile {
+	display: none;
+}
+.navbar {
+	margin-bottom: 0;
+	background: #fff;
+	border-color: #fff;
+}
+.navbar-header {
+	padding: 0.12rem 0;
+}
+.navbar .navbar-collapse {
+	border-color: #fff;
+}
+.navbar .navbar-nav .active a {
+	background-color: #de2a34;
+}
+.navbar .navbar-nav li a:hover{
+	background: #de2a34;
+	color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a.focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #fff;
+	background-color: #de2a34;
+}
+.navbar .navbar-brand {
+	background-image: url(../images/logo.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 70%;
+	margin-left: 15px;
+}
+/*main*/
+main{
+	background: #efefef;
+	padding: 0.2rem 0 0.8rem;
+}
+
+	/*part*/
+.part{
+	margin-top: 0.2rem;
+}
+.part:first-child{
+	margin-top: 0;
+}
+.part .container{
+	background: #ffff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.part h2{
+	font-size: 0.26rem;
+	color: #ab0710;
+	font-weight: 600;
+	position: relative;
+	padding-bottom: 0.18rem;
+	margin-top: 0.3rem;
+}
+.part h2::before,.part h2::after{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 1px;
+}
+.part h2::before{
+	width: 40%;
+	background: #ab0710;
+	height: 2px;
+}
+.part h2::after{
+	width: 100%;
+	background: #cacaca;
+	height: 1px;
+	bottom: 0;
+}
+.btn-group-lg>.btn, .btn-lg{
+	font-size: 0.18rem;
+}
+.main-list{
+	padding: 0.2rem 0.38rem 0;
+	margin: 0.2rem auto 0;
+	position: relative;
+}
+.main-list .list-title{
+	font-size: 0.16rem;
+	background: #de2a34;
+	color: #fff;
+	width: 1.7rem;
+	padding: 0.08rem 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.main-list .main-list-intro{
+	background: #fff4f4;
+	padding: 0.3rem;
+}
+.divided h3{
+	font-size: 0.16rem;
+	padding: 0.1rem 0.14rem;
+	max-width: 3rem;
+	text-align: left;
+	border-radius: 5px;
+	border: 1px solid #de2a34;
+	color: #de2a34;
+	font-weight: 600;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0.1rem 0 0.14rem;
+}
+.divided > p{
+	font-size: 0.2rem;
+	margin-bottom: 0.14rem;
+}
+.divided > p>span{
+	font-size: 0.14rem;
+}
+.divided > p > strong{
+	font-weight: 600;
+}
+.divided table{
+	border-collapse: collapse;
+	width: 100%;
+}
+.divided table td,.divided table th{
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.divided table td{
+	background: #fff;
+}
+.divided table th{
+	background: #de2a34;
+	color: #fff;
+	padding: 0.14rem 0;
+}
+.divided table td p{
+	padding: 0.14rem;
+	text-align: left;
+}
+.divided:nth-child(1){
+	padding-bottom: 0.3rem;
+	border-bottom: 1px dashed #ccc;
+}
+.divided:last-child{
+	padding-top: 0.3rem;
+}
+.divided:last-child h3{
+	margin-top: 0;
+}
+.divided table tr:nth-child(2) td:nth-child(1){
+	width: 12%;
+}
+.divided table tr:nth-child(2) td:nth-child(2){
+	width: 16%;
+}
+
+/*专业方向*/
+.main-list>.nobackground{
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	border-radius: 12px;
+}
+.nobackground .col-md-4{
+	border-right: 1px solid #e0e0e0;
+}
+.nobackground .col-md-4:last-child{
+	border-right: 0;
+}
+.nobackground .col-md-4>p{
+	line-height: 0.24rem;
+	height: 0.96rem;
+}
+.nobackground .col-md-4>p>span{
+	color: #de2a34;
+	font-weight: bold;
+}
+/*海外衔接院校*/
+.college-list .col-md-3{
+	text-align: center;
+	margin-bottom: 0.14rem;
+}
+.college-list .col-md-3>h4,.college-list .col-md-3>span{
+	width: 100%;
+	display: block;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.college-list .col-md-3>h4{
+	margin-bottom: 0.04rem;
+	font-size: 0.18rem;
+}
+.college-list .col-md-3>span{
+	color: #999;
+}
+.btn-primary{
+	background: #9e110e;
+	border: none;
+}
+.btn-primary:link{
+	background: #9f1014;
+}
+.btn-primary:visited{
+	background: #9f1014;
+}
+.btn-primary:hover{
+	background: #9f1014;
+}
+.btn-primary:active,.btn-primary:focus{
+	background: #9f1014;
+}
+.btn-primary.btn-lg{
+	width: 3.6rem;
+}
+.container .text-center{
+	margin: 0.3rem 0;
+}
+/*我们的优势*/
+.space{
+	padding: 0.24rem 0;
+}
+.advantage .col-md-12 .row{
+	border-bottom: 1px dashed #ccc;
+}
+.advantage .row h4{
+	font-size: 0.18rem;
+	font-weight: 600;
+}
+.advantage .row .media-body>p{
+	padding-top: 0.12rem;
+}
+
+/*升学成果*/
+.part h2>span{
+	font-size: 0.22rem;
+}
+.achievement table{
+	width: 100%;
+}
+.achievement table td,.achievement table th{
+	line-height: 0.38rem;
+	text-align: center;
+	border-collapse: collapse;
+	border-right: 6px solid #fff;
+}
+.achievement table td:nth-child(8n+8),.achievement table th:last-child,.achievement .mobile table td:nth-child(4n+4){
+	border-right: 0;
+}
+.achievement table th{
+	background: #de2a34;
+	color: #f5f5f5;
+}
+.achieve-bottom{
+	position: relative;
+	height: 3.52rem;
+	overflow: hidden;
+	margin-top: 6px;
+}
+.achieve-bottom table{
+	position: absolute;
+}
+.achieve-bottom tr{
+	border-bottom: 6px solid #fff;
+}
+.achieve-bottom tr td{
+	background: #fcfcfc;
+}
+.achieve-bottom tr:nth-child(odd) td{
+	background: #f5f5f5;
+}
+
+/*专业方向*/
+.major .thead h4,.major .tbody p,.college h4,.college .col-md-4 .list{
+	padding: 0.14rem;
+	box-sizing: border-box;
+}
+.major .tbody>p{
+	height: 1.03rem;
+}
+.major .tbody>p,.college .col-md-4 .list{
+	background: #f5f5f5;
+}
+.major .tbody>p>strong{
+	color: #de2a34;
+}
+.college h4{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.major h4,.college h4{
+	font-size: 0.16rem;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	background: #de2a34;
+	margin: 0;
+	width: 100%;
+}
+.major .thead:nth-child(2) h4{
+	background: #ab0710;
+}
+.major .col-md-6,.college .col-md-4,.college .col-md-12{
+	margin-bottom: 0.14rem;
+}
+.major .row>.col-md-6.no-margin,.college .row>.col-md-6.no-margin{
+	margin-bottom: 0;
+}
+
+/*college*/
+.college .col-md-4 .list{
+	overflow: hidden;
+}
+.college .col-md-4 .list img,.college .col-md-4 .list p{
+	float: left;
+	vertical-align: middle;
+}
+.college .col-md-4 .list img{
+	height: 0.28rem;
+}
+.college .col-md-4 .list p{
+	width: 74%;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 0.28rem;
+	margin-left: 0.04rem;
+}
+.no-padding{
+	padding-bottom: 0;
+}
+
+/*hot attention*/
+.attention .list-title{
+	font-size: 0.16rem;
+	background: #de2a34;
+	color: #fff;
+	width: 3.6rem;
+	padding: 0.08rem 0 0.08rem 0.2rem;
+	box-sizing: border-box;
+}
+.attention .space{
+	border-bottom: 1px dashed #ccc;
+}
+.attention .row>.col-md-12>.title + .row{
+	border-bottom: none;
+}
+.attention .col-md-6 .divi{
+	padding-left: 0.12rem;
+	border-left:3px solid #ab0710;
+}
+/*招生问答录*/
+.col-md-12>.divi{
+	border-bottom: 1px dashed #ccc;
+	padding-left: 0.5rem;
+	background: url("/images/rm_xh_09.jpg") left top no-repeat;
+	background-size: 0.5rem;
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 0.2rem;
+}
+.divi .left *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.divi .left{
+	float: left;
+}
+.divi .right{
+	float: right;
+	padding: 0.08rem 0;
+}
+.divi .right>a{
+	background: #9e110e;
+	display: block;
+	padding: 0.06rem 0.14rem;
+	color: #fff;
+	border-radius: 5px;
+}
+.divi .right>a>span{
+	margin-right: 0.04rem;
+}
+.divi .left h4{
+	color: #ab0710;
+	font-size: 0.16rem;
+	font-weight: 600;
+	margin: 0;
+	line-height: 0.5rem;
+}
+.ques>.col-md-12{
+	padding-top: 0.2rem;
+}
+.ques>.col-md-12:nth-child(3)>.divi{
+	background-image: url("/images/rm_xh_12.jpg");
+}
+.ques>.col-md-12:nth-child(4)>.divi{
+	background-image: url("/images/rm_xh_14.jpg");
+}
+.ques>.col-md-12:nth-child(5)>.divi{
+	background-image: url("/images/rm_xh_16.jpg");
+}
+.ques>.col-md-12:nth-child(6)>.divi{
+	background-image: url("/images/rm_xh_18.jpg");
+}
+.ques>.col-md-12:nth-child(7)>.divi{
+	background-image: url("/images/rm_xh_20.jpg");
+}
+.ques>.col-md-12:nth-child(8)>.divi{
+	background-image: url("/images/rm_xh_22.jpg");
+}
+
+/*报名申请*/
+.apply .container{
+	background: url("/images/bmxz_bg_25.png") center no-repeat;
+	background-size: cover;
+}
+.apply .container h2{
+	color: #fff;
+}
+.apply .container h2::before,.apply .container h2::after{
+	background: #fff;
+}
+.apply .divi{
+	background: rgba(255,255,255,.8);
+	border-radius: 10px;
+	padding: 0.2rem;
+}
+.apply .divi .portion{
+	margin-bottom: 0.15rem;
+}
+.apply .divi .portion h4{
+	font-weight: 600;
+	color: #9f1014;
+	font-size: 0.16rem;
+}
+.apply .divi .portion h4>span{
+	font-size: 0.12rem;
+	color: #818181;
+	font-weight: normal;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+	html{
+		font-size: 500%;
+	}
+	body{
+		font-size: 0.16rem;
+	}
+	.pc{
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	.mobile-margin30 {
+		margin-top: 23px;
+	}
+
+	.part .container{
+		background: #fff;
+	}
+	.apply .container {
+		background: url(/images/bmxz_bg_25.png) center no-repeat;
+		background-size: cover;
+	}
+
+	.navbar-default .navbar-header .logo {
+		margin-left: 15px;
+		height: 32px;
+		width: 70%;
+		padding: 15px 0;
+		margin-top: 8px;
+		margin-bottom: 8px;
+	}
+
+	.main-list{
+		padding: 0.01rem 0 0;
+	}
+	.main-list .main-list-intro{
+		padding-top: 0.5rem;
+	}
+
+	.nobackground .col-md-4{
+		border-right: none;
+		margin-bottom: 0.2rem;
+	}
+	.nobackground .col-md-4:last-child{
+		margin-bottom: 0;
+	}
+	.nobackground .col-md-4 p{
+		height: auto;
+	}
+
+	.advantage .col-md-12 .row{
+		border-bottom: none;
+	}
+	.advantage .col-md-6{
+		padding: 0.2rem;
+		border-bottom: 1px dashed #ccc;
+	}
+	.advantage .space{
+		padding: 0;
+	}
+	.media:last-child{
+		margin-bottom: 0;
+	}
+
+	.img-list .col-md-4{
+		margin-bottom: 0.2rem;
+	}
+	.img-list .col-md-4:last-child{
+		margin-bottom: 0;
+	}
+
+	.major .row>.col-md-6:nth-child(odd){
+		padding-right: 0;
+	}
+	.major .row>.col-md-6:nth-child(even){
+		padding-left: 0;
+	}
+	.major h4{
+		line-height: 0.24rem;
+	}
+	.major .tbody>p {
+		height: 3.2rem;
+		box-sizing: border-box;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.college .row>.col-xs-6:nth-child(odd){
+		padding-left: 0;
+	}
+	.college .row>.col-xs-6:nth-child(even){
+		padding-right: 0;
+	}
+	.college .col-md-4 .list p{
+		width: 82%;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.divi .body-main a{
+		float: right;
+		background: #9e110e;
+		display: block;
+		padding: 0.06rem 0.2rem;
+		color: #fff;
+		border-radius: 5px;
+		margin-top: 0.2rem;
+	}
+	.divi .body-main a span{
+		margin-right: 0.04rem;
+	}
+	.divided h3{
+		margin-top: 0.2rem;
+	}
+	.divided table tr>th:first-child{
+		width: 20%;
+	}
+
+	.divi .left h4.other-line{
+		line-height: 1.8;
+	}
+	.apply .col-md-6:first-child {
+		margin-bottom: 0.2rem;
+	}
+
+}
+
+
+
+
+
+
+
+
