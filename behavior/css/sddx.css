@@ -30,7 +30,7 @@ p{
 }
 .phone img,.phone p{
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 }
 .phone p{
 	padding-left: 0.1rem;
@@ -97,7 +97,7 @@ nav.pc ul li:hover a{
 	background-color: #de2a34;
 }
 .navbar .navbar-brand {
-	background-image: url(../images/logo.jpg);
+	background-image: url(/behavior/images/logo.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -433,7 +433,7 @@ main{
 .col-md-12>.divi{
 	border-bottom: 1px dashed #ccc;
 	padding-left: 0.5rem;
-	background: url("/images/rm_xh_09.jpg") left top no-repeat;
+	background: url("/behavior/images/rm_xh_09.jpg") left top no-repeat;
 	background-size: 0.5rem;
 	border-bottom: 1px dashed #ccc;
 	padding-bottom: 0.2rem;
@@ -470,27 +470,27 @@ main{
 	padding-top: 0.2rem;
 }
 .ques>.col-md-12:nth-child(3)>.divi{
-	background-image: url("/images/rm_xh_12.jpg");
+	background-image: url("/behavior/images/rm_xh_12.jpg");
 }
 .ques>.col-md-12:nth-child(4)>.divi{
-	background-image: url("/images/rm_xh_14.jpg");
+	background-image: url("/behavior/images/rm_xh_14.jpg");
 }
 .ques>.col-md-12:nth-child(5)>.divi{
-	background-image: url("/images/rm_xh_16.jpg");
+	background-image: url("/behavior/images/rm_xh_16.jpg");
 }
 .ques>.col-md-12:nth-child(6)>.divi{
-	background-image: url("/images/rm_xh_18.jpg");
+	background-image: url("/behavior/images/rm_xh_18.jpg");
 }
 .ques>.col-md-12:nth-child(7)>.divi{
-	background-image: url("/images/rm_xh_20.jpg");
+	background-image: url("/behavior/images/rm_xh_20.jpg");
 }
 .ques>.col-md-12:nth-child(8)>.divi{
-	background-image: url("/images/rm_xh_22.jpg");
+	background-image: url("/behavior/images/rm_xh_22.jpg");
 }
 
 /*报名申请*/
 .apply .container{
-	background: url("/images/bmxz_bg_25.png") center no-repeat;
+	background: url("/behavior/images/bmxz_bg_25.png") center no-repeat;
 	background-size: cover;
 }
 .apply .container h2{
@@ -544,7 +544,7 @@ main{
 		background: #fff;
 	}
 	.apply .container {
-		background: url(/images/bmxz_bg_25.png) center no-repeat;
+		background: url(/behavior/images/bmxz_bg_25.png) center no-repeat;
 		background-size: cover;
 	}
 
